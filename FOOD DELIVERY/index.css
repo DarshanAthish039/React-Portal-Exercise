@@ -1,0 +1,509 @@
+/* Space out the input groups */
+.input-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Center the submit button */
+  .button-container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  /* App.css */
+  .app {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
+  
+  .header__nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .header__nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .searchbar {
+    margin: 10px;
+    display: flexbox;
+    justify-content: center;
+  }
+  
+  .searchbar input {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #ddd;
+  }
+  
+  .searchbar button {
+    padding: 100;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .searchbar button:hover {
+    background-color: hsl(354, 100%, 45%);
+  }
+  
+  .restaurantList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .restaurantCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .restaurantCard img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .orderButton {
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .orderButton:hover {
+    background-color: #e65c00;
+  }
+  
+  .orderPage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .orderPage input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .orderPage button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .orderPage button:hover {
+    background-color: #e65c00;
+  }
+  .about {
+    background-color: #fff; /* White background for clarity */
+    padding: 40px; /* Increased padding for spaciousness */
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    text-align: center; /* Center the text */
+  }
+  
+  .about h2 {
+    font-size: 2.5em; /* Larger font size for the title */
+    margin-bottom: 15px; /* Space below the title */
+    color: #d9534f; /* Swiggy's brand color */
+  }
+  
+  .about h3 {
+    font-size: 2em; /* Increased font size for subheading */
+    margin-top: 30px; /* Space above the subheading */
+    color: #333; /* Darker color for contrast */
+  }
+  
+  .about-images {
+    display: flex; /* Flexbox for responsive image layout */
+    justify-content: center; /* Center images */
+    gap: 20px; /* Space between images */
+    margin: 20px 0; /* Margin around the images */
+    display: "";
+  }
+  
+  .about-images img {
+    width: 300px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+  }
+  
+  .about-reasons {
+    display: flex; /* Flexbox for responsive layout */
+    flex-wrap: wrap; /* Wrap items to next line if needed */
+    justify-content: space-around; /* Space out the reason items */
+    margin: 20px 0; /* Margin around the reasons */
+  }
+  
+  .reason {
+    flex: 1; /* Flexible size */
+    min-width: 200px; /* Minimum width for reason boxes */
+    padding: 20px; /* Padding for spacing */
+    background-color: #f7f7f7; /* Light background for reasons */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 10px; /* Margin between reasons */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .reason:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .cta-button {
+    background-color: #d9534f; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2em; /* Larger font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  .cta-button:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+  }
+  .loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height for centering */
+    background-image: url('https://images.unsplash.com/photo-1583510072120-3c8e528c6f30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGZvb2QlMjBkZXRhaWx8ZW58MHx8fHwxNjM5NDg1Mjk3&ixlib=rb-1.2.1&q=80&w=1920'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background */
+    position: relative;
+  }
+  
+  .loginCard {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    width: 400px; /* Fixed width for the form */
+    text-align: center; /* Center text */
+  }
+  
+  .loginTitle {
+    color: #ff5c00; /* Zomato orange */
+    margin-bottom: 20px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column; /* Vertical alignment for form elements */
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px; /* Space between input fields */
+  }
+  
+  .inputField {
+    width: 100%; /* Full width for input fields */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners for input fields */
+    font-size: 16px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+  }
+  
+  .inputField:focus {
+    border-color: #ff5c00; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .loginButton {
+    width: 100%; /* Full width for the button */
+    padding: 10px;
+    background-color: #ff5c00; /* Zomato orange */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    color: white; /* White text color */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .loginButton:hover {
+    background-color: #e95e00; /* Darker orange on hover */
+  }
+  
+  .signupLink {
+    text-align: center; /* Center text */
+    margin-top: 10px; /* Space above */
+  }
+  
+  .signupLink a {
+    color: #ff5c00; /* Zomato orange */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .signupLink a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .contact {
+    padding: 2rem;
+    background: #fff5f0;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact__details {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .contact__link {
+    color: #ff7043;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact__link:hover {
+    color: #ff5722;
+  }
+  
+  .contact__feedback {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input__field {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .contact__button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact__button:hover {
+    background-color: #ff5722;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff8c00;
+    padding: 15px;
+  }
+  
+  .header__logo {
+    width: 100px;
+  }
+  
+  .header__nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .searchbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .searchbar input {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .searchbar button {
+    padding: 10px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .restaurantList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .restaurantCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurantCard img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .restaurantCard button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cartItem__image {
+    width: 200px; /* Size of the image in the cart */
+    margin-right: 10px; /* Space between image and text */
+  }
+  .cartItem__buttons {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .cartItem__buttons button {
+    margin-right: 10px; /* Space between buttons */
+  }
+  
+  .cartItem__buttons button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
+  
+  .contact {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .input__field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .contact__button {
+    padding: 10px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .feedback__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .about-reasons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
